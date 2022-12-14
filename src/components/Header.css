@@ -1,0 +1,33 @@
+.header {
+  background-color: var(--primary);
+  padding: 10px 0 ;
+  color: var(--primary);
+}
+.header .container {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.nav-links {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: .8rem;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  outline: none;
+}
+
+@media (max-width:575px) {
+  .header .nav-links {
+    gap:.5rem;
+  }
+}
